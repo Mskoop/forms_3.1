@@ -1,0 +1,153 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Lucida Sans'sans-serif;
+    /* display: flex;
+    flex-direction: column; */
+    width: 50vw;
+    height: auto;
+    background-color: rgb(234, 227, 227);
+    margin-inline: auto;
+    margin-top:20vh;
+    margin-bottom: 10vh;
+    border-radius: 8px;
+}
+
+header {
+    background-color: rgb(56, 85, 101);
+    border-radius: 8px 8px 0 0;
+    padding-bottom: 3vh;
+    height: 20%;
+    color: white;
+}
+
+/* display:flex; */
+/* text-decoration: column; */
+
+
+body main header h2 {
+    padding-top:3vh;
+    padding-left:2vw
+}
+
+body main header p {
+    padding-left:2vw;
+}
+
+h3 {
+    line-height: 6vh;
+}
+
+.section1 {
+    display:flex;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+.section1 div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-size: 0.8rem;
+}
+
+.section1 div input {
+    line-height: 1.6rem;
+}
+.section1 div label {
+    padding-top: 2vh;
+} 
+
+.article1 {
+    background-color: #9995;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3vh;
+}
+
+.section2 {
+    display:flex;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: center;
+    margin-inline: auto;
+
+}
+.section2 div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-size: 0.8rem;
+}
+
+.section2 div input {
+    line-height: 1.6rem;
+}
+
+.section2 div label {
+    padding-top: 2vh;
+} 
+
+.article2 {
+    background-color: #9995;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3vh;
+}
+
+.section3 {
+    display:flex;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: center;
+    margin-inline: auto;
+
+}
+.section3 div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-size: 0.8rem;
+}
+
+.section3 div input {
+    line-height: 1.6rem;
+}
+
+.section3 div label {
+    padding-top: 2vh;
+} 
+
+.article3 {
+    background-color: #9995;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3vh;
+}
+
+.submit {
+    padding: 2vh 3vw;
+    background-color: rgb(56, 85, 101);
+    color: white;
+    margin: 2vh 0;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
